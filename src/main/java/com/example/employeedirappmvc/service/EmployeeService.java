@@ -1,7 +1,10 @@
 package com.example.employeedirappmvc.service;
 
+import com.example.employeedirappmvc.dto.DepartmentDTO;
 import com.example.employeedirappmvc.dto.EmployeeDTO;
+import com.example.employeedirappmvc.exception.DepartmentNotFoundException;
 import com.example.employeedirappmvc.exception.EmployeeNotFoundException;
+import com.example.employeedirappmvc.model.Department;
 import com.example.employeedirappmvc.model.Employee;
 import com.example.employeedirappmvc.repository.EmployeeRepository;
 import org.modelmapper.ModelMapper;
@@ -28,6 +31,7 @@ public class EmployeeService {
         return mapper.map(employee, EmployeeDTO.class);
     }
 
+
     public EmployeeDTO addEmployee(Employee employee) {
         var saved = employeeRepository.save(employee);
         return mapToDTO(saved);
@@ -36,6 +40,10 @@ public class EmployeeService {
     public List<EmployeeDTO> getAllEmployees() {
         return employeeRepository.findAll().stream().map(this::mapToDTO).collect(Collectors.toList());
     }
+
+//    public Employee getEmployeeById(Long id) {
+//        return employeeRepository.findById(id).orElseThrow(EmployeeNotFoundException::new);
+//    }
 
     public EmployeeDTO updateEmployee(Long id, Employee e) {
         var existingOptional = employeeRepository.findById(id);

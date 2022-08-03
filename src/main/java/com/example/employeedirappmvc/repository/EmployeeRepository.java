@@ -12,7 +12,6 @@ import java.util.List;
 @Repository
 @EnableJpaRepositories
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
-
     @Query("SELECT e FROM Employee e WHERE e.lastName = ?1")
     List<Employee> findEmployeeByLastName(String lastName);
 //    List<EmployeeDTO> findEmployeeByLastName(String lastName);

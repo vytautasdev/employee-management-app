@@ -17,13 +17,13 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
 
-    @PostMapping("/create")
-    public EmployeeDTO create(@RequestBody Employee e) {
+    @PostMapping("/createEmployee")
+    public EmployeeDTO createEmployee(@RequestBody Employee e) {
         return employeeService.addEmployee(e);
     }
 
-    @GetMapping("/read")
-    public List<EmployeeDTO> readAll() {
+    @GetMapping("/readAllEmployees")
+    public List<EmployeeDTO> readAllEmployees() {
         return employeeService.getAllEmployees();
     }
 
@@ -34,13 +34,13 @@ public class EmployeeController {
         return employeeService.getEmployeeByLastName(lastName);
     }
 
-    @PutMapping("/update/{id}")
-    public EmployeeDTO update(@PathVariable Long id, @RequestBody Employee e) {
+    @PutMapping("/updateEmployee/{id}")
+    public EmployeeDTO updateEmployeeById(@PathVariable Long id, @RequestBody Employee e) {
         return employeeService.updateEmployee(id, e);
     }
 
-    @DeleteMapping("/delete/{id}")
-    public void delete(@PathVariable Long id) {
+    @DeleteMapping("/deleteEmployee/{id}")
+    public void deleteEmployeeById(@PathVariable Long id) {
         employeeService.deleteEmployee(id);
     }
 

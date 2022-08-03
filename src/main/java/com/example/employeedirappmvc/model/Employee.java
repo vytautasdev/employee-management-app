@@ -1,6 +1,8 @@
 package com.example.employeedirappmvc.model;
 
 import lombok.*;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import javax.persistence.*;
 import javax.validation.constraints.Max;
@@ -47,12 +49,10 @@ public class Employee {
 
     private int department;
 
-    @OneToMany(mappedBy = "employee", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "employee", fetch = FetchType.EAGER)
+    @OnDelete(action = OnDeleteAction.CASCADE)
     private List<Department> departmentList = new ArrayList<>();
 
-//
-//@ManyToOne
-//@JoinColumn(name = "id")
-//private Employee employee;
+
 
 }

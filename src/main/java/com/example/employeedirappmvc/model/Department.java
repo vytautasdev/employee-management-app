@@ -24,11 +24,9 @@ public class Department {
 
     private String description;
 
-
     @ManyToOne
     @JoinColumn(name = "id")
     private Employee employee;
 
-    // band     @OneToMany(mappedBy = "employee", cascade = CascadeType.ALL)
-    //    private List<Department> departmentList = new ArrayList<>();
+
 }
