@@ -1,5 +1,4 @@
 # employee-management-app
-#### Introduction
 _A fully fledged Spring
 Boot application showcasing the basic CRUD operations in a real-world
 scenario._
