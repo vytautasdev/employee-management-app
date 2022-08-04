@@ -23,7 +23,7 @@ The default ones are :
 
 #### Project structure <br>
 
-// display project folder structure screenshot
+<img src="projectStructure.png" width="400" height="400" >
 
 ER Diagram
 <div />
