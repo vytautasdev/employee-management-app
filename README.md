@@ -40,7 +40,7 @@ or
 
 run this command in the command line:
 <div />
-<img src="run.png" width="100" height="100">
+<img src="run.png">
 
 
 My learnings : joining multiple database tables using hibernate annotations
