@@ -36,15 +36,8 @@ ER Diagram
 
 #### Usage <br>
 #
-Run the project through the IDE and head out to Postman to check Rest endpoints
+Run the project through the IDE or run: mvn spring-boot:run command in the command line and head out to Postman to check the rest endpoints.
 
-or
-
-run this command in the command line:
-<div />
-<img src="run.png">
-
-#
 
 * Create
 <br>
