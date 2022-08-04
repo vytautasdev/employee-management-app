@@ -1,7 +1,7 @@
 # employee-management-app
 _A fully fledged Spring
 Boot application showcasing the basic CRUD operations on Employee entity._
-<hr lineHeight="1">
+<hr  line-height="0.5">
 
 #### What's inside <br>
 * Maven *
