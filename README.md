@@ -26,7 +26,8 @@ The default ones are :
 // display project folder structure screenshot
 
 ER Diagram
-<img src="db.png" >
+<div />
+<img src="db.png" width="250" height="250" >
 
 
 // execution postman screenshot crud
