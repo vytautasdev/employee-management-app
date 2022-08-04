@@ -22,13 +22,13 @@ The default ones are :
 
 #### Project structure <br>
 
-<img src="projectStructure.png" width="400" height="400" >
+<img src="projectStructure.png" width="500" height="500" >
 
 #
 
 #### ER Diagram <br>
 <div />
-<img src="db.png" width="400" height="400" >
+<img src="db.png" width="500" height="500" >
 
 #### Usage <br>
 #
