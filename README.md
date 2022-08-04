@@ -22,7 +22,7 @@ The default ones are :
 
 #### Project structure <br>
 
-<img src="projectStructure.png" width="500" height="500" >
+<img src="projectStructure.png"  >
 
 #
 
