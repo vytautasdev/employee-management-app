@@ -35,15 +35,11 @@ The default ones are :
 Run the project through the IDE or run: **mvn spring-boot:run** command in the command line and head out to Postman to check the rest endpoints.
 
 
-* Create
-<img src="createEmployee.png" width="500" height="500"> 
+* Create <img src="createEmployee.png" width="500" height="500"> 
 
-* Read
-<img src="getAllEmployees.png" width="500" height="500"> 
+* Read <img src="getAllEmployees.png" width="500" height="500"> 
 
-* Update
-<img src="update.png" width="500" height="500"> 
+* Update <img src="update.png" width="500" height="500"> 
 
-* Delete
-<img src="delete.png" width="500" height="500"> 
+* Delete <img src="delete.png" width="500" height="500"> 
 
