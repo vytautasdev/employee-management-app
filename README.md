@@ -41,5 +41,5 @@ Run the project through the IDE or run: **mvn spring-boot:run** command in the c
 
 * Update <img src="update.png" width="500" height="500"> 
 
-* Delete <img src="delete.png" width="500" height="500"> 
-
+* Delete 
+<img align="right" width="500" height="500" src="delete.png">
