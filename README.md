@@ -24,7 +24,6 @@ The default ones are :
 
 <img src="projectStructure.png"  >
 
-#
 
 ## ER Diagram
 <div />
