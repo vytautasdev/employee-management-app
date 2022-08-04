@@ -28,7 +28,7 @@ The default ones are :
 
 #### ER Diagram <br>
 <div />
-<img src="db.png" width="500" height="500" >
+<img src="db.png" >
 
 #### Usage <br>
 #
