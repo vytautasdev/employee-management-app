@@ -36,14 +36,14 @@ Run the project through the IDE or run: **mvn spring-boot:run** command in the c
 
 
 * Create
-<img src="createEmployee.png" width="400" height="400"> 
+<img src="createEmployee.png" width="500" height="500"> 
 
 * Read
-<img src="getAllEmployees.png" width="400" height="400"> 
+<img src="getAllEmployees.png" width="500" height="500"> 
 
 * Update
-<img src="update.png" width="400" height="400"> 
+<img src="update.png" width="500" height="500"> 
 
 * Delete
-<img src="delete.png" width="400" height="400"> 
+<img src="delete.png" width="500" height="500"> 
 
