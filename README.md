@@ -17,6 +17,17 @@ scenario._
 
 // display screenshot of database diagram 
 
+// execution postman screenshot crud
+
+// as it is sppring boot app it runs on tomcat  port:8080, so make sure 8080 port is free
+// right click in the java project and we have to options
+
+1. run as java app
+2. run as spring boot 
+
+
+My learnings : joining multiple database tables using hibernate annotations
+
 
 
 The application is built utilising popular technologies such as Spring
