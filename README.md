@@ -1,6 +1,5 @@
 # employee-management-app
-_A fully fledged Spring
-Boot application showcasing the basic CRUD operations on Employee entity._ <br>
+_A fully fledged Spring Boot application showcasing the basic CRUD operations._ <br>
 
 #### What's inside <br>
 * Maven
