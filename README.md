@@ -5,11 +5,15 @@ _A fully fledged Spring
 Boot application showcasing the basic CRUD operations in a real-world
 scenario._
 
-#### Features <br>
-* Create *
-* Read *
-* Update *
-* Delete *
+Spring Boot CRUD demo is demonstrating how to implement simple CRUD operations with a Product entity.
+
+
+
+#### What's inside <br>
+* Maven *
+* Spring Core *
+* Spring Data (Hibernate & MySQL) *
+* Spring MVC (Tomcat) *
 
 #### Project structure <br>
 
