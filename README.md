@@ -19,6 +19,8 @@ The default ones are :
 <div />
 <img src="jdbc.png"> 
 <div />
+
+
 #### Project structure <br>
 
 // display project folder structure screenshot
