@@ -4,10 +4,10 @@ Boot application showcasing the basic CRUD operations on Employee entity._
 #
 
 #### What's inside <br>
-* Maven *
-* Spring Core *
-* Spring Data (Hibernate & MySQL) *
-* Spring MVC (Tomcat) *
+* Maven
+* Spring Core
+* Spring Data (Hibernate & MySQL)
+* Spring MVC (Tomcat)
 #
 #### Installation <br>
 The project is created with Maven, so you just need to import it to your IDE and build the project to resolve the dependencies.
@@ -27,7 +27,7 @@ The default ones are :
 
 ER Diagram
 <div />
-<img src="db.png" width="500" height="500" >
+<img src="db.png" width="400" height="400" >
 
 #### Usage <br>
 #
