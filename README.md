@@ -25,6 +25,8 @@ The default ones are :
 
 <img src="projectStructure.png" width="400" height="400" >
 
+#
+
 ER Diagram
 <div />
 <img src="db.png" width="400" height="400" >
