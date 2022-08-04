@@ -42,5 +42,3 @@ run this command in the command line:
 <div />
 <img src="run.png">
 
-
-My learnings : joining multiple database tables using hibernate annotations
