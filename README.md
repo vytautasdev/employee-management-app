@@ -32,8 +32,6 @@ The default ones are :
 
 ## Usage 
 
-#
-
 Run the project through the IDE or run: **mvn spring-boot:run** command in the command line and head out to Postman to check the REST endpoints.
 
 
