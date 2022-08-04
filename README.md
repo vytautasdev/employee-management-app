@@ -25,7 +25,9 @@ The default ones are :
 
 // display project folder structure screenshot
 
-// display screenshot of database diagram 
+ER Diagram
+<img src="" >
+
 
 // execution postman screenshot crud
 
