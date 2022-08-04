@@ -1,5 +1,5 @@
 # employee-management-app
-### @Vytautas
+### @Vytautas <img src="img.png" width="100" height="100" >
 #### Introduction
 _A fully fledged Spring
 Boot application showcasing the basic CRUD operations in a real-world
