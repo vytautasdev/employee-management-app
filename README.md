@@ -1,11 +1,7 @@
 # employee-management-app
 _A fully fledged Spring
-Boot application showcasing the basic CRUD operations in a real-world
-scenario._
-
-Spring Boot CRUD demo is demonstrating how to implement simple CRUD operations with a Product entity.
-
-
+Boot application showcasing the basic CRUD operations on Employee entity._
+<hr>
 
 #### What's inside <br>
 * Maven *
