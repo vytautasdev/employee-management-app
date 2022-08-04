@@ -1,13 +1,13 @@
 # employee-management-app
 _A fully fledged Spring Boot application showcasing the basic CRUD operations._ <br>
 
-### What's inside <br>
+### What's inside
 * Maven
 * Spring Core
 * Spring Data (Hibernate & MySQL)
 * Spring MVC (Tomcat)
 #
-## Installation <br>
+## Installation
 The project is created with Maven, so you just need to import it to your IDE and build the project to resolve the dependencies.
 #
 ## Database configuration 
@@ -20,13 +20,13 @@ The default ones are :
 
 #
 
-## Project structure <br>
+## Project structure
 
 <img src="projectStructure.png"  >
 
 #
 
-## ER Diagram <br>
+## ER Diagram
 <div />
 <img src="db.png" >
 
