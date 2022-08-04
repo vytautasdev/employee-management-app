@@ -23,14 +23,17 @@ The default ones are :
 ## Project structure
 
 <img src="projectStructure.png"  >
+<div />
 
 
 ## ER Diagram
 <div />
 <img src="db.png" >
 
-## Usage <br>
+## Usage 
+
 #
+
 Run the project through the IDE or run: **mvn spring-boot:run** command in the command line and head out to Postman to check the REST endpoints.
 
 
