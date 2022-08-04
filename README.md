@@ -13,7 +13,7 @@ Boot application showcasing the basic CRUD operations on Employee entity._
 The project is created with Maven, so you just need to import it to your IDE and build the project to resolve the dependencies.
 #
 #### Database configuration <br>
-#
+
 Create a MySQL database with the name employee_list and add the credentials to /resources/application.properties.
 The default ones are :
 <div />
