@@ -27,7 +27,7 @@ The default ones are :
 
 ER Diagram
 <div />
-<img src="db.png" width="250" height="250" >
+<img src="db.png" width="350" height="350" >
 
 
 // execution postman screenshot crud
