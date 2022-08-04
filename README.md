@@ -6,7 +6,10 @@ Boot application showcasing the basic CRUD operations in a real-world
 scenario._
 
 #### Features: <br>
-* add *
+* Create *
+* Read *
+* Update *
+* Delete *
 
 
 The application is built utilising popular technologies such as Spring
