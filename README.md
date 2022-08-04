@@ -18,6 +18,7 @@ The default ones are :
 <div />
 <img src="jdbc.png"> 
 <div />
+
 ## Project structure
 
 <img src="projectStructure.png"  >
