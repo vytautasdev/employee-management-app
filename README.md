@@ -18,6 +18,7 @@ Create a MySQL database with the name employee_list and add the credentials to /
 The default ones are :
 <div />
 <img src="jdbc.png">
+#
 #### Project structure <br>
 
 // display project folder structure screenshot
