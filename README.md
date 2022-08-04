@@ -31,10 +31,22 @@ ER Diagram
 
 
 // execution postman screenshot crud
+* Create
+<br>
+
+* Read
+<br>
+
+* Update
+<br>
+
+* Delete
+<br>
+
 
 #### Usage <br>
 #
-Run the project through the IDE and head out to http://localhost:8080
+Run the project through the IDE and head out to Postman to check Rest endpoints
 
 or
 
