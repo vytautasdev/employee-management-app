@@ -5,11 +5,18 @@ _A fully fledged Spring
 Boot application showcasing the basic CRUD operations in a real-world
 scenario._
 
-#### Features: <br>
+#### Features <br>
 * Create *
 * Read *
 * Update *
 * Delete *
+
+#### Project structure <br>
+
+// display project folder structure screenshot
+
+// display screenshot of database diagram 
+
 
 
 The application is built utilising popular technologies such as Spring
