@@ -39,6 +39,8 @@ Run the project through the IDE and head out to http://localhost:8080
 or
 
 run this command in the command line:
+<div />
+<img src="run.png" width="100" height="100">
 
 
 My learnings : joining multiple database tables using hibernate annotations
