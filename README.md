@@ -32,18 +32,13 @@ ER Diagram
 
 // execution postman screenshot crud
 
-// as it is sppring boot app it runs on tomcat  port:8080, so make sure 8080 port is free
-// right click in the java project and we have to options
+#### Usage <br>
+#
+Run the project through the IDE and head out to http://localhost:8080
 
-1. run as java app
-2. run as spring boot 
+or
+
+run this command in the command line:
 
 
 My learnings : joining multiple database tables using hibernate annotations
-
-
-
-The application is built utilising popular technologies such as Spring
-Boot, Spring Security (JDBC), Thymeleaf, Spring Data JPA and is hosted
-on Microsoft Azure.
-The content
