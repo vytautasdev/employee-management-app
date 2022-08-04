@@ -9,6 +9,9 @@ Boot application showcasing the basic CRUD operations on Employee entity._
 * Spring Data (Hibernate & MySQL) *
 * Spring MVC (Tomcat) *
 #
+#### Installation <br>
+The project is created with Maven, so you just need to import it to your IDE and build the project to resolve the dependencies.
+#
 #### Project structure <br>
 
 // display project folder structure screenshot
