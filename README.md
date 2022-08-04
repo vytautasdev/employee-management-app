@@ -31,17 +31,7 @@ ER Diagram
 
 
 // execution postman screenshot crud
-* Create
-<br>
 
-* Read
-<br>
-
-* Update
-<br>
-
-* Delete
-<br>
 
 
 #### Usage <br>
@@ -53,4 +43,18 @@ or
 run this command in the command line:
 <div />
 <img src="run.png">
+
+#
+
+* Create
+<br>
+
+* Read
+<br>
+
+* Update
+<br>
+
+* Delete
+<br>
 
