@@ -16,7 +16,7 @@ The project is created with Maven, so you just need to import it to your IDE and
 #
 Create a MySQL database with the name employee_list and add the credentials to /resources/application.properties.
 The default ones are :
-<div>
+<span />
 <img src="jdbc.png">
 #### Project structure <br>
 
