@@ -1,15 +1,13 @@
 package com.example.employeedirappmvc.model;
 
-import lombok.*;
-import org.hibernate.annotations.OnDelete;
-import org.hibernate.annotations.OnDeleteAction;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
-import java.util.ArrayList;
-import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -47,12 +45,9 @@ public class Employee {
     @NotNull
     private String dob;
 
-    private int department;
-
-    @OneToMany(mappedBy = "employee", fetch = FetchType.EAGER)
-    @OnDelete(action = OnDeleteAction.CASCADE)
-    private List<Department> departmentList = new ArrayList<>();
-
+    @NotNull
+    @ManyToOne
+    private Department department;
 
 
 }

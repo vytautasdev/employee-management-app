@@ -1,7 +1,7 @@
-package com.example.employeedirappmvc.model;
+package com.example.employeedirappmvc.dto;
 
+import com.example.employeedirappmvc.model.Employee;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
@@ -12,10 +12,8 @@ import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 @Entity
-public class Department {
-
+public class DepartmentDTO {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,8 +21,6 @@ public class Department {
 
     @NotNull
     private String departmentName;
-
-    private int numberOfEmployees;
 
     private String description;
 

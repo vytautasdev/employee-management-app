@@ -1,5 +1,6 @@
 package com.example.employeedirappmvc.dto;
 
+import com.example.employeedirappmvc.model.Department;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -33,5 +34,9 @@ public class EmployeeDTO {
     @NotNull
     private String email;
 
-    private int department;
+    @NotNull
+    @ManyToOne
+    private Department department;
+
+
 }

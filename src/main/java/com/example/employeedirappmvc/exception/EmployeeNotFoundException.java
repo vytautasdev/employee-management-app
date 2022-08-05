@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 import javax.persistence.EntityNotFoundException;
 
-@ResponseStatus(code = HttpStatus.NOT_FOUND, reason = "Employee with given id does not exist")
+@ResponseStatus(code = HttpStatus.NOT_FOUND, reason = "Employee with given id does not exist.")
 public class EmployeeNotFoundException extends EntityNotFoundException {
 
     public EmployeeNotFoundException() {

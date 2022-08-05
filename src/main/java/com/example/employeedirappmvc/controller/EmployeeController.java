@@ -27,7 +27,6 @@ public class EmployeeController {
         return employeeService.getAllEmployees();
     }
 
-
     @GetMapping("/readByLastName/{lastName}")
 //    public List<EmployeeDTO> readByLastName(@PathVariable String lastName) {
     public List<Employee> readByLastName(@PathVariable String lastName) {
@@ -43,7 +42,6 @@ public class EmployeeController {
     public void deleteEmployeeById(@PathVariable Long id) {
         employeeService.deleteEmployee(id);
     }
-
 
     @GetMapping("/login/{email}/{password}")
     public int login(@PathVariable String email, @PathVariable String password) {
